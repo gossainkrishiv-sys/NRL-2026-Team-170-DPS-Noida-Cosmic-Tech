@@ -16,8 +16,8 @@
   --white:#f7f7f7;--muted:#b5b5b5;--line:rgba(255,255,255,.14);
   --glow:0 10px 35px rgba(227,38,54,.12);
   --gutter:16px;
-  /* Strength of the DPS Noida logo in the page background (0 = hidden, 1 = full) */
-  --logo-opacity:.09;
+  /* Visibility of the full-page DPS crest wallpaper */
+  --logo-opacity:.82;
 }
 
 *{box-sizing:border-box}
@@ -30,10 +30,8 @@ h1,h2,h3,h4{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.
 
 /* ---------- Background layers ---------- */
 body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(circle at 10% 12%,rgba(227,38,54,.09),transparent 28%),linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px);background-size:auto,48px 48px}
-.school-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:var(--logo-opacity)}
-/* Add dps-noida-logo.png to the repository root and uncomment the next line to show it.
-.school-bg{background:url("dps-noida-logo.png") no-repeat center 46% / min(72vw,540px) auto}
-*/
+.school-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:var(--logo-opacity);background:url("Delhi%20Public%20School%20Crest%20Wallpaper.png") no-repeat center center / cover}
+
 main,footer{position:relative;z-index:1}
 main{overflow-x:hidden;overflow-x:clip}  /* decorative rings never widen the page */
 
@@ -227,7 +225,7 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#8f8f8f;font-size:1
 
 /* ---------- Phone ---------- */
 @media(max-width:600px){
-  :root{--logo-opacity:.08}
+  :root{--logo-opacity:.82}
   section{padding:60px 0}
   .navlinks{gap:20px}
 
