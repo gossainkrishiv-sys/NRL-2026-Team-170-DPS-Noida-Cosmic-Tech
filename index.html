@@ -30,7 +30,10 @@ h1,h2,h3,h4{font-family:Anton,Impact,sans-serif;font-weight:400;letter-spacing:.
 
 /* ---------- Background layers ---------- */
 body:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;background:radial-gradient(circle at 10% 12%,rgba(227,38,54,.09),transparent 28%),linear-gradient(rgba(255,255,255,.012) 1px,transparent 1px);background-size:auto,48px 48px}
-.school-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;background:url("dps-noida-logo.png") no-repeat center 46% / min(72vw,540px) auto;opacity:var(--logo-opacity)}
+.school-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:var(--logo-opacity)}
+/* Add dps-noida-logo.png to the repository root and uncomment the next line to show it.
+.school-bg{background:url("dps-noida-logo.png") no-repeat center 46% / min(72vw,540px) auto}
+*/
 main,footer{position:relative;z-index:1}
 main{overflow-x:hidden;overflow-x:clip}  /* decorative rings never widen the page */
 
@@ -311,7 +314,7 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#8f8f8f;font-size:1
 <body>
 <nav><div class="wrap navin">
 <a class="brand" href="#home">
-<img class="brandmark brandlogo" src="img/cosmic-logo.jpg" alt="Cosmic Tech logo" width="42" height="42">
+<img class="brandmark brandlogo" src="cosmic-logo.jpg" alt="Cosmic Tech logo" width="42" height="42">
 <div>SPARKS1DPSN<small>NRL • TEAM 170</small></div></a>
 <div class="navlinks"><a href="#challenge">Project</a><a href="#team">Our Team</a><a href="#iprv">IPRV</a><a href="#about">About</a><a href="https://www.instagram.com/nrlteam170/" target="_blank" rel="noopener">Instagram ↗</a></div>
 <a class="navcta" href="#iprv">Explore IPRV ↗</a>
@@ -340,10 +343,10 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#8f8f8f;font-size:1
 <div class="project-grid">
 <div class="project-copy"><h4>THE BUILD</h4><ul><li>Four-wheel mobile robotic platform</li><li>Custom-built body and chassis</li><li>Electronics, wiring and control system</li><li>Camera module mounted on the front panel</li><li>Designed as a prototype for pothole-repair workflows</li></ul><span class="tag">Design · Build · Test · Improve</span></div>
 <div class="project-gallery">
-<figure class="photo"><img src="img/iprv-outdoor.webp" alt="Close-up of the IPRV robot outdoors" width="720" height="1280" loading="lazy"><figcaption>IPRV · Outdoor prototype</figcaption></figure>
-<figure class="photo"><img src="img/iprv-field.webp" alt="IPRV robot in the school garden" width="720" height="1280" loading="lazy"><figcaption>Field view</figcaption></figure>
-<figure class="photo"><img src="img/iprv-front.webp" alt="Front view of IPRV robot indoors" width="900" height="1200" loading="lazy"><figcaption>Front assembly</figcaption></figure>
-<figure class="photo"><img src="img/iprv-team.webp" alt="Team member standing with IPRV robot" width="900" height="1200" loading="lazy"><figcaption>Team and prototype</figcaption></figure>
+<figure class="photo"><img src="iprv-outdoor.webp" alt="Close-up of the IPRV robot outdoors" width="720" height="1280" loading="lazy"><figcaption>IPRV · Outdoor prototype</figcaption></figure>
+<figure class="photo"><img src="iprv-field.webp" alt="IPRV robot in the school garden" width="720" height="1280" loading="lazy"><figcaption>Field view</figcaption></figure>
+<figure class="photo"><img src="iprv-front.webp" alt="Front view of IPRV robot indoors" width="900" height="1200" loading="lazy"><figcaption>Front assembly</figcaption></figure>
+<figure class="photo"><img src="iprv-team.webp" alt="Team member standing with IPRV robot" width="900" height="1200" loading="lazy"><figcaption>Team and prototype</figcaption></figure>
 </div></div></div>
 </div></section>
 
@@ -434,13 +437,13 @@ footer{border-top:1px solid var(--line);padding:32px 0;color:#8f8f8f;font-size:1
 <section id="team"><div class="wrap">
 <div class="section-head reveal"><div><div class="eyebrow">The people behind the build</div><h2>MEET THE <span>TEAM.</span></h2></div><p>Different strengths. One shared goal: turn ideas into working technology.</p></div>
 <div class="team-grid">
-<article class="member captain reveal"><div class="member-poster"><img src="img/member-krishiv.webp" alt="Krishiv Gossain — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">01 / TEAM CAPTAIN</span><h3>Krishiv Gossain</h3><div class="captain-badge">Team Captain</div><p><span class="role-label">Responsibilities</span><br>Circuitry, programming and 3D printing</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-yuvaan.webp" alt="Yuvaan Agarwal — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">02 / TEAM MEMBER</span><h3>Yuvaan Agarwal</h3><p><span class="role-label">Responsibilities</span><br>Hardware</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-adhiraj.webp" alt="Adhiraj Jha — NRL Team 170 member poster" width="640" height="838" loading="lazy"></div><div class="member-details"><span class="num">03 / TEAM MEMBER</span><h3>Adhiraj Jha</h3><p><span class="role-label">Responsibilities</span><br>Hardware</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-akshiv.webp" alt="Akshiv Gulati — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">04 / TEAM MEMBER</span><h3>Akshiv Gulati</h3><p><span class="role-label">Responsibilities</span><br>Canva and visual design</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-arnit.webp" alt="Arnit Gupta — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">05 / TEAM MEMBER</span><h3>Arnit Gupta</h3><p><span class="role-label">Responsibilities</span><br>Circuitry and assembling</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-anshika.webp" alt="Anshika Agarwal — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">06 / TEAM MEMBER</span><h3>Anshika Agarwal</h3><p><span class="role-label">Responsibilities</span><br>Hardware, assembly and social media management</p></div></article>
-<article class="member reveal"><div class="member-poster"><img src="img/member-ishaan.webp" alt="Ishaan Baveja — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">07 / TEAM MEMBER</span><h3>Ishaan Baveja</h3><p><span class="role-label">Responsibilities</span><br>Hardware, circuitry and assembling</p></div></article>
+<article class="member captain reveal"><div class="member-poster"><img src="member-krishiv.webp" alt="Krishiv Gossain — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">01 / TEAM CAPTAIN</span><h3>Krishiv Gossain</h3><div class="captain-badge">Team Captain</div><p><span class="role-label">Responsibilities</span><br>Circuitry, programming and 3D printing</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-yuvaan.webp" alt="Yuvaan Agarwal — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">02 / TEAM MEMBER</span><h3>Yuvaan Agarwal</h3><p><span class="role-label">Responsibilities</span><br>Hardware</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-adhiraj.webp" alt="Adhiraj Jha — NRL Team 170 member poster" width="640" height="838" loading="lazy"></div><div class="member-details"><span class="num">03 / TEAM MEMBER</span><h3>Adhiraj Jha</h3><p><span class="role-label">Responsibilities</span><br>Hardware</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-akshiv.webp" alt="Akshiv Gulati — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">04 / TEAM MEMBER</span><h3>Akshiv Gulati</h3><p><span class="role-label">Responsibilities</span><br>Canva and visual design</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-arnit.webp" alt="Arnit Gupta — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">05 / TEAM MEMBER</span><h3>Arnit Gupta</h3><p><span class="role-label">Responsibilities</span><br>Circuitry and assembling</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-anshika.webp" alt="Anshika Agarwal — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">06 / TEAM MEMBER</span><h3>Anshika Agarwal</h3><p><span class="role-label">Responsibilities</span><br>Hardware, assembly and social media management</p></div></article>
+<article class="member reveal"><div class="member-poster"><img src="member-ishaan.webp" alt="Ishaan Baveja — NRL Team 170 member poster" width="640" height="853" loading="lazy"></div><div class="member-details"><span class="num">07 / TEAM MEMBER</span><h3>Ishaan Baveja</h3><p><span class="role-label">Responsibilities</span><br>Hardware, circuitry and assembling</p></div></article>
 </div>
 </div></section>
 
@@ -460,6 +463,18 @@ const observer = new IntersectionObserver(entries => {
   entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
 }, { threshold: .12 });
 document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Keep broken image paths visible and easy to diagnose.
+document.querySelectorAll('img').forEach(img => {
+  img.addEventListener('error', () => {
+    img.style.visibility = 'hidden';
+    const parent = img.closest('.member-poster, .photo, .brand');
+    if (parent) {
+      parent.classList.add('image-missing');
+      parent.setAttribute('data-image-error', 'Image not found: ' + img.getAttribute('src'));
+    }
+  });
+});
 </script>
 </body>
 </html>
